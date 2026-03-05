@@ -2,6 +2,9 @@ baseURL = "https://aotsuki.blog/"
 languageCode = "ja"
 title = "Aotsuki's blog"
 theme = "PaperMod"
+copyright = " 2026 AotsukiAotsuki"
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = false
 
 [caches]
   [caches.images]
