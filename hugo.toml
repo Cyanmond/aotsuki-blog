@@ -1,6 +1,6 @@
 baseURL = "https://aotsuki.blog/"
 languageCode = "ja"
-title = "aotsuki"
+title = "Aotsuki's blog"
 theme = "PaperMod"
 
 [caches]
@@ -13,3 +13,34 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   ShowToc = true
   math = true
+
+  mainSections = ["math", "cp", "diary"]  # 全体の最新一覧にしたいなら
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/Cyanmond"
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://x.com/account_name"
+
+  [params.homeInfoParams]
+    Title = "Aotsuki's blog"
+    Content = "数学 / 競プロ / 日記。"
+
+[menu]
+  [[menu.main]]
+    name = "Archive"
+    url = "/archives/"
+    weight = 10
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 20
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
