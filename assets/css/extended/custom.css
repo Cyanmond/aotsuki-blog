@@ -1,0 +1,17 @@
+/* Social icons block spacing */
+.social-icons {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.page-header {
+  margin-top: 0;
+  padding-top: 0.5rem;
+}
+
+main.main > article.first-entry.home-info {
+  margin-top: 0 !important;
+  padding-top: 0rem !important; /* 0 にしたければ 0 */
+  margin-bottom: 0rem !important;   /* 好みで 0.5rem などに */
+  padding-bottom: 0.5rem !important;
+}

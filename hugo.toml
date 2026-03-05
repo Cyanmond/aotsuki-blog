@@ -2,16 +2,22 @@ baseURL = "https://aotsuki.blog/"
 languageCode = "ja"
 title = "Aotsuki's blog"
 theme = "PaperMod"
-copyright = " 2026 AotsukiAotsuki"
+copyright = "© 2026 Aotsuki"
 defaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowPageNums = true
+ShowAllPagesInArchive = true
+ShowRssButtonInSectionTermList = true
+ShowShareButtons = true
 
 [caches]
   [caches.images]
     dir = ":cacheDir/images"
 
 [params]
-  author = "Isane"
+  author = "Aotsuki"
   ShowReadingTime = true
   ShowCodeCopyButtons = true
   ShowToc = true
@@ -24,12 +30,19 @@ defaultContentLanguageInSubdir = false
     url = "https://github.com/Cyanmond"
 
   [[params.socialIcons]]
-    name = "twitter"
+    name = "X"
     url = "https://x.com/account_name"
 
   [params.homeInfoParams]
     Title = "Aotsuki's blog"
-    Content = "数学 / 競プロ / 日記。"
+    Content = """
+数学とか競技プログラミングとか、日記とかを書きます。
+"""
+  [params.label]
+    text = "Home"
+
+  [params.assets]
+    favicon = "/favicon.png"
 
 [menu]
   [[menu.main]]
@@ -44,6 +57,10 @@ defaultContentLanguageInSubdir = false
     name = "Tags"
     url = "/tags/"
     weight = 30
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 5
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
