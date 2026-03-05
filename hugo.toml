@@ -1,0 +1,15 @@
+baseURL = "https://aotsuki.blog/"
+languageCode = "ja"
+title = "aotsuki"
+theme = "PaperMod"
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
+
+[params]
+  author = "Isane"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  math = true
