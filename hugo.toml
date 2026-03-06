@@ -36,10 +36,11 @@ ShowShareButtons = true
   [params.homeInfoParams]
     Title = "Aotsuki's blog"
     Content = """
+イギリスで数学科受験生。
 数学とか競技プログラミングとか、日記とかを書きます。
 """
   [params.label]
-    text = "Home"
+    text = "Aotsuki's blog"
 
   [params.assets]
     favicon = "/favicon.png"
